@@ -1,0 +1,36 @@
+* {box-sizing: border-box}
+
+body { background-color: #ebebf3; position: relative }
+.right{ float: right; margin: 0 0 10px 10px }
+
+.right .nav-right  { border: solid saddlebrown; padding: 20px; margin: 0;}
+.right .nav-right a { margin: 10px; display: block; padding: 0 0 10px 0}
+
+.aside {display: inline-block; background-color: #e1e1e9; margin: 0 20px 0 0; padding: 10px; float: left; width: 20%; min-width: 120px;
+}
+.aside p { display: inline-block; background-color: green; padding: 10px;}
+.aside a { margin: 1%; display: block; padding: 0 0 1% 0 }
+
+.content { display: block; vertical-align: top; float: left; border: solid; width: auto; width: 100%; margin-bottom: 30px; background-color: #fbfbfb; hyphens: auto; }
+
+form .form-contacts { border: solid; display: inline-block; max-width: 350px; padding: 0 5px 10px 10px;}
+form .form-contacts .form-contacts{border: none;  display: inline-block; padding: 15px 25px;}
+form .form-contacts .form-contacts input { margin-top: 2px; width: 250px}
+form .form-contacts  .form-contacts textarea { vertical-align: top; }
+
+.footer {float: left; clear: both; width: 100%; padding: 10px 10px; background-color: rgba(84, 162, 88, 0.52); }
+.footer div.footer-1 { display: inline-block; padding: 20px 0 20px 0}
+.footer div.footer-2 { display: inline-block; float: right; padding: 20px 0 20px 0}
+
+.alert { display: inline-block; padding: 0 10px 0 0; }
+.alert-error {background-color: rgb(236, 172, 172);}
+.alert-success {background-color: #c0f7b4; padding: 10px; margin-bottom: 20px;}
+.alert-messages { display: inline-block; border: solid 1px green; padding: 3px; margin: 5px; background-color: #bce6bc;}
+
+@media (max-width: 300px){
+	.right {margin: 20px 0 20px 0; float: left; margin-right: 10px; }
+}
+@media (max-width: 250px){
+	.aside { width: 100%} 
+	.right { width: 100%; }
+}
