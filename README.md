@@ -1,3 +1,5 @@
+Attention!: file public/phpmyadmin/yarn.lock is DELETED.
+
 Developed functionality on Laravel with MySQL database. 
 Implemented^
     displaying a list of products, 
